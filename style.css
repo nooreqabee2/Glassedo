@@ -1,0 +1,58 @@
+.left{
+
+  margin-right:-100px;
+  }
+
+@media only screen and (max-width: 768px) {
+.right{
+  margin-left:65px;
+  margin-top: -80px;
+}
+
+}
+
+
+  .div1{
+  margin-top:-100px
+  }
+
+  .picc1{
+  height:500px;
+  width:600px;
+  margin-right:-60px;
+  margin-top:-130px;
+
+  }
+
+
+
+
+  .picc2{
+  height:500px;
+  width:600px;
+  margin-right:-60px;
+  margin-top:-10px
+
+  }
+
+  .picc3{
+  height:500px;
+  width:600px;
+  margin-top:-60px}
+
+
+  .picc4{
+  margin-top:-150px;
+  }
+
+  .picc5{
+  margin-top:-40px;
+  }
+
+  .picc6{
+  margin-top:-70px;
+  }
+
+  #featured-products{
+  margin-top:-180px;
+  }

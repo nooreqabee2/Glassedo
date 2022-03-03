@@ -1,0 +1,158 @@
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 80%;
+  height: 70%;
+}
+
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(0, 0, 0);
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(0, 0, 0);
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide .title {
+  background: #ffffffc7;
+  border-radius: 1px;
+
+  border: none;
+  outline: none;
+  float: left;
+  position: absolute;
+  width: 50%;
+  height: 10%;
+  z-index:1;
+  color: #ff2e2e;
+  font-size: 0.875rem;
+  text-align: center;
+
+
+  text-transform: capitalize;
+
+}
+
+.card-btn{
+
+  position: absolute;
+  bottom: 90px;
+  margin-left: 50%;
+
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 50%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+
+  font-size: 0.875rem;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  background: rgb(255, 255, 255);
+  border-radius: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+
+
+}
+
+.swiper-slide:hover .card-btn{
+
+  opacity: 1 ;
+}
+
+.card-btn:hover{
+
+  background: rgb(255, 255, 255);
+  color:  rgb(108, 44, 204);
+}
+
+.myswiper .swiper-slide{
+  -webkit-transition: 200ms all;
+  transition: 200ms all;
+}
+
+.myswiper .swiper-slide:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 0;
+}
+
+.swiper-button-next{
+  position: absolute;
+
+  transform: translateY(-50%);
+  padding-right: 3%;
+  padding-bottom: 195%;
+  margin-top: 0px;
+
+  }
+  .swiper-button-prev{
+      position: absolute;
+    margin-top: 0px;
+    transform: translateY(-50%);
+    padding-left: 3%;
+    padding-bottom: 195%;
+
+
+  }
+
+  
